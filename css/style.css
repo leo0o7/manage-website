@@ -71,11 +71,6 @@ a {
     justify-self: end !important;
   }
 }
-
-body {
-  background-color: hsl(34, 5%, 95%);
-}
-
 h1 {
   font-size: 3.2rem;
 }
@@ -109,7 +104,7 @@ br {
 .primary-h {
   display: grid;
   grid-template-columns: 0.5fr 1fr 0.5fr;
-  padding-block: 2rem;
+  padding-block: 4rem;
   align-items: center;
 }
 .primary-h .logo {
