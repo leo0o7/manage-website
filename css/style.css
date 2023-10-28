@@ -73,7 +73,7 @@ a {
 }
 
 body {
-  background-color: hsl(34, 5%, 95%);
+  overflow-x: hidden;
 }
 
 h1 {
