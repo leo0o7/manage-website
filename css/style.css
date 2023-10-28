@@ -585,42 +585,5 @@ main::after {
   main::after {
     display: none;
   }
-  .primary-h::after {
-    position: absolute;
-    content: "";
-    background: url("../images/bg-tablet-pattern.svg") no-repeat;
-    background-position-x: 0%;
-    background-position-y: 0%;
-    background-size: auto;
-    background-position: bottom right;
-    background-size: 504px;
-    width: 574px;
-    height: 442px;
-    top: 0;
-    left: 0;
-    z-index: -1;
-  }
-
-  footer {
-    position: relative;
-  }
-  footer::before {
-    position: absolute;
-    content: "";
-    background: url("../images/bg-tablet-pattern.svg") no-repeat;
-    background-position-x: 0%;
-    background-position-y: 0%;
-    background-size: auto;
-    background-position-x: 0%;
-    background-position-y: 0%;
-    background-size: auto;
-    background-position: bottom right;
-    background-size: 504px;
-    width: 790px;
-    height: 1244px;
-    bottom: 2244px;
-    left: 0;
-    z-index: -1;
-  }
 }
 /* MEDIA */
