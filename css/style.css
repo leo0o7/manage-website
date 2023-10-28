@@ -72,10 +72,6 @@ a {
   }
 }
 
-body {
-  overflow-x: hidden;
-}
-
 h1 {
   font-size: 3.2rem;
 }
@@ -311,6 +307,7 @@ footer a:hover {
   top: 0;
   right: 0;
   z-index: -1;
+  overflow-x: hidden;
 }
 main {
   position: relative;
@@ -326,6 +323,7 @@ main::after {
   bottom: 0px;
   left: 0;
   z-index: -1;
+  overflow-x: hidden;
 }
 /* MEDIA */
 @media screen and (width <= 1440px) {
@@ -599,6 +597,7 @@ main::after {
     top: 0;
     left: 0;
     z-index: -1;
+    overflow-x: hidden;
   }
 
   footer {
@@ -621,6 +620,7 @@ main::after {
     bottom: 2244px;
     left: 0;
     z-index: -1;
+    overflow-x: hidden;
   }
 }
 /* MEDIA */
