@@ -117,6 +117,7 @@ br {
 .primary-nav ul {
   justify-content: space-between;
   align-items: center;
+  padding-inline: 4rem;
   gap: 2rem;
 }
 .primary-h .icon {
